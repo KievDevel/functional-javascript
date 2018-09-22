@@ -15,7 +15,7 @@ Imperative = **how**; list of instructions how to achieve result.
 
 Declarative = **what**; only declaration of expected result
 
-[Example code](https://github.com/KievDevel/functional-javascript/tree/master/declarative-imperative/index.js)
+<a href="https://github.com/KievDevel/functional-javascript/tree/master/declarative-imperative/index.js" target="_blank">Example code</a>
 
 ## Basic concepts
 
@@ -36,14 +36,14 @@ You can wrap functions - so impure function will be hidden into pure function
 
 Function with 1 parameter named unary function, with 2 - binary, if more - anyary function.
 
-[Example code](https://github.com/KievDevel/functional-javascript/tree/master/basic-concepts/index.js)
+<a href="https://github.com/KievDevel/functional-javascript/tree/master/basic-concepts/index.js" target="_blank">Example code</a>
 
 ## Point-free style
 
 Point is an input to the function. 
 Point-free style is mapping between parameter and passing function.
 
-[Example code](https://github.com/KievDevel/functional-javascript/tree/master/point-free-style/index.js)
+<a href="https://github.com/KievDevel/functional-javascript/tree/master/point-free-style/index.js" target="_blank">Example code</a>
 
 ## Composition
 
