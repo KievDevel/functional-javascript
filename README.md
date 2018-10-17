@@ -15,7 +15,7 @@ Imperative = **how**; list of instructions how to achieve result.
 
 Declarative = **what**; only declaration of expected result
 
-<a href="https://github.com/KievDevel/functional-javascript/tree/master/declarative-imperative/index.js" target="_blank">Example code</a>
+[Example code](https://github.com/KievDevel/functional-javascript/tree/master/declarative-imperative/index.js)
 
 ## Basic concepts
 
@@ -36,14 +36,21 @@ You can wrap functions - so impure function will be hidden into pure function
 
 Function with 1 parameter named unary function, with 2 - binary, if more - anyary function.
 
-<a href="https://github.com/KievDevel/functional-javascript/tree/master/basic-concepts/index.js" target="_blank">Example code</a>
+[Example code](https://github.com/KievDevel/functional-javascript/tree/master/basic-concepts/index.js)
 
 ## Point-free style
 
 Point is an input to the function. 
 Point-free style is mapping between parameter and passing function.
 
-<a href="https://github.com/KievDevel/functional-javascript/tree/master/point-free-style/index.js" target="_blank">Example code</a>
+[Example code](https://github.com/KievDevel/functional-javascript/tree/master/point-free-style/index.js)
 
 ## Composition
 
+**Composition** - output of one function becomes an input to another.
+
+**Pipe** - pipe as functional composition.
+
+Lodash has built-in compose(), pipe() and much more. [Lodash FP docs](https://github.com/lodash/lodash/wiki/FP-Guide).
+
+Note: much easier to compose unary functions
