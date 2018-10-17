@@ -51,6 +51,26 @@ Point-free style is mapping between parameter and passing function.
 
 **Pipe** - pipe as functional composition.
 
-Lodash has built-in compose(), pipe() and much more. [Lodash FP docs](https://github.com/lodash/lodash/wiki/FP-Guide).
+Lodash has built-in `compose()`, `pipe()` and much more. [Lodash FP docs](https://github.com/lodash/lodash/wiki/FP-Guide).
 
 Note: much easier to compose unary functions
+
+[Example code](https://github.com/KievDevel/functional-javascript/tree/master/composition/index.js)
+
+## Immutability
+
+**Immutability** - value cannot be *mutated* or *reassigned*.
+
+*Note*: JS const does not provide value immutability, only immutable bindings. 
+Object or array can become immutable with `Object.freeze()`, but it freezes only top level of the object.
+
+Useful link: [Immutable.js](https://facebook.github.io/immutable-js/)
+
+## Closure
+
+Closure - is when a function "remembers" the variables around it even when that function is executed elsewhere; 
+Closure is a record storing a function together with an environment.
+
+Prevents from being garbage collected.
+
+If function returns another function that makes some calculations -> calculations can be delayed/postponed until they'll become necessary -> leads to lazy algorithms (vs eager).
