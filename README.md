@@ -12,6 +12,7 @@ Contents:
 5. Immutability
 6. Closure
 7. Referential transparency, memoization
+8. Eager vs Lazy evaluation and observables
 
 ## 1. Imperative vs declarative
 
@@ -103,7 +104,19 @@ Useful link: [Memoize library](https://github.com/caiogondim/fast-memoize.js)
 
 **Lazy evaluation** - wait; evaluate only when value of expression is needed.
 
-Lazy array = observable.
+Lazy array = *observable*.
 
-Useful link: [ReactiveX library](https://rxjs-dev.firebaseapp.com/guide/overview) - *lodash for events*
+*Observable* - invokable collection of future values or events.
+
+*Observer* - is a collection of callbacks that knows how to listen to values delivered by the Observable.
+
+*Subscription* - execution of an Observable.
+
+Example: wrap http request into observable, add subscriber and it will be called on demand (e.g. response).
+Other example are series of values in time (streams, setInterval etc). You can add subscriber to 'push' event and do whatever you need.
+
+[Example code](https://github.com/KievDevel/functional-javascript/tree/master/observable/index.js)
+
+
+Useful link: [ReactiveX library, or RxJS](https://rxjs-dev.firebaseapp.com/guide/overview) - *lodash for events*
 
