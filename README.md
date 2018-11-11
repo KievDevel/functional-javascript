@@ -106,17 +106,16 @@ Useful link: [Memoize library](https://github.com/caiogondim/fast-memoize.js)
 
 Lazy array = *observable*.
 
-*Observable* - invokable collection of future values or events.
+**Observable** - invokable collection of future values or events.
 
-*Observer* - is a collection of callbacks that knows how to listen to values delivered by the Observable.
+**Observer** - is a collection of callbacks that knows how to listen to values delivered by the Observable.
 
-*Subscription* - execution of an Observable.
-
-Example: wrap http request into observable, add subscriber and it will be called on demand (e.g. response).
-Other example are series of values in time (streams, setInterval etc). You can add subscriber to 'push' event and do whatever you need.
+**Subscription** - execution of an Observable.
 
 [Example code](https://github.com/KievDevel/functional-javascript/tree/master/observable/index.js)
 
+**Use cases:** wrap http request into observable, add subscriber and it will be called on demand (e.g. response).
+Other example are series of values in time (streams, setInterval etc). You can add subscriber to 'push' event and do whatever you need.
 
 Useful link: [ReactiveX library, or RxJS](https://rxjs-dev.firebaseapp.com/guide/overview) - *lodash for events*
 
