@@ -12,6 +12,3 @@ function generateIDbyKey(key) {
 
 assertEqual(generateIDbyKey(1000) === generateIDbyKey(1000)); // true -> function is referentially transparent
 assertEqual('10000000' === '10000000'); // replacing with return value will give same result
-
-
-// TODO: provide better examples, memoization

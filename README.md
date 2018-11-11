@@ -87,10 +87,12 @@ Referential transparency - function call can be replaced with it's return value
 Pure function is a function that has referential transparency.
 Matters when you read and need to trust your code.
 
+[Example code](https://github.com/KievDevel/functional-javascript/tree/master/referential-transparency/index.js)
+
 Memoize caches the return values of the function, so if the function is called again with the same arguments, 
 Memoize returns the cached value, instead of computing the value again. Only pure functions can be memoized.
 
 Memoization is an example of referential transparency; performance technique.
 
-[Example code](https://github.com/KievDevel/functional-javascript/tree/master/referential-transparency/index.js)
+[Memoize library](https://github.com/caiogondim/fast-memoize.js)
 
