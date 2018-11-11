@@ -2,6 +2,7 @@
 # Functional programming in JavaScript with examples
 
 Can be used as cheat-sheet or quick reminder of main principles.
+Main goal of this article is to explain basic concepts of FP in simple words.
 
 Contents:
 1. Imperative vs declarative
@@ -94,5 +95,15 @@ Memoize returns the cached value, instead of computing the value again. Only pur
 
 Memoization is an example of referential transparency; performance technique.
 
-[Memoize library](https://github.com/caiogondim/fast-memoize.js)
+Useful link: [Memoize library](https://github.com/caiogondim/fast-memoize.js)
+
+## 8. Eager vs Lazy evaluation and observables
+
+**Eager evaluation**: run function as soon as it is bound to a variable. Immediate execution.
+
+**Lazy evaluation** - wait; evaluate only when value of expression is needed.
+
+Lazy array = observable.
+
+Useful link: [ReactiveX library](https://rxjs-dev.firebaseapp.com/guide/overview) - *lodash for events*
 
