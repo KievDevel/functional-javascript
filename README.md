@@ -126,4 +126,9 @@ Useful link: [ReactiveX library, or RxJS](https://rxjs-dev.firebaseapp.com/guide
 ##### Map
 
 Map - take values, transform and copy them into new DS. Do not change an order and cause no side-effects.
+
 [Map code example](https://github.com/KievDevel/functional-javascript/tree/master/data-structures/map.js)
+
+#### Filter
+
+Filter - exclusion; Return true - keep value, false - remove.
