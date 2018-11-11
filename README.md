@@ -131,4 +131,8 @@ Map - take values, transform and copy them into new DS. Do not change an order a
 
 #### Filter
 
-Filter - exclusion; Return true - keep value, false - remove.
+Filter - exclusion function; Return true - keep value, false - remove.
+
+#### Reduce
+
+Reduce - combining (not reduction) operation; operates on 2 values.
