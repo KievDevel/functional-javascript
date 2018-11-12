@@ -13,6 +13,7 @@ Contents:
 6. Closure
 7. Referential transparency, memoization
 8. Eager vs Lazy evaluation and observables
+9. Data Structures and operations
 
 ## 1. Imperative vs declarative
 
@@ -27,7 +28,7 @@ Declarative = **what**; only declaration of expected result
 Why functional programming? It's provable by math and readable. 
 But remember not go too far with it until you'll be confident in what you're doing.
 
-**TODO:** explicit vs implicit
+**TODO:** explicit vs implicit, 
 
 **Procedure** - collection of operations; 
 In simple words: functions return a value, whereas procedures don't.
@@ -132,7 +133,17 @@ Map - take values, transform and copy them into new DS. Do not change an order a
 #### Filter
 
 Filter - exclusion function; Return true - keep value, false - remove.
+[Filter code example](https://github.com/KievDevel/functional-javascript/tree/master/data-structures/filter.js)
 
 #### Reduce
 
 Reduce - combining (not reduction) operation; operates on 2 values.
+[Reduce code example](https://github.com/KievDevel/functional-javascript/tree/master/data-structures/reduce.js)
+
+#### Fusion
+
+Fusion - take list of operations and compose them into single operation. Optimization technique; 
+
+*Usage example:* you call map several times, map is pure function, so memory usage scales with map calls. 
+Fusion let you combine all operation in one and reduce used memory.
+[Fuse code example](https://github.com/KievDevel/functional-javascript/tree/master/data-structures/fuse.js)
