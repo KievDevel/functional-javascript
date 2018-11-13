@@ -147,3 +147,9 @@ Fusion - take list of operations and compose them into single operation. Optimiz
 *Usage example:* you call map several times, map is pure function, so memory usage scales with map calls. 
 Fusion let you combine all operation in one and reduce used memory.
 [Fuse code example](https://github.com/KievDevel/functional-javascript/tree/master/data-structures/fuse.js)
+
+
+#### Transduction
+
+Same as fusion but for different shapes of functions (e.g map+filter+reduce) - shapes aren't compatible
+
